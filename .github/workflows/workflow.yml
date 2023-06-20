@@ -15,8 +15,6 @@ jobs:
           python-version: '3.9'
       - name: Checkout repository
         uses: actions/checkout@v2
-          
-          
       - name: Installing dependencies
         run: pip install -r ./requirements.txt
 
