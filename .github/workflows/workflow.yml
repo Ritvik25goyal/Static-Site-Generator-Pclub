@@ -13,16 +13,8 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: '3.9'
-      - name: List files
-        run: ls -a
-      - name: testing
-        run: |
-          ls
-          cd ../
-          echo "hello"
-          ls
-          ls *
-          pwd
+      - name: Checkout repository
+        uses: actions/checkout@v2
           
           
       - name: Installing dependencies
