@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    
+    <item>
+      <title>fest culture of IIT</title>
+      <link>../posts/fest-culture/index.html</link>
+      <description>first intraction to a celebrity</description>
+      <pubDate>2023-06-20 5:07</pubDate>
+    </item>
+    
+    <item>
+      <title>Why i am writing this</title>
+      <link>../posts/4th-blog/index.html</link>
+      <description>just rant</description>
+      <pubDate>2023-06-20 4:58</pubDate>
+    </item>
+    
+    <item>
+      <title>Semester Update !!</title>
+      <link>../posts/semester-update/index.html</link>
+      <description>wow rahul jha is here</description>
+      <pubDate>2023-06-19  11:34</pubDate>
+    </item>
+    
+    <item>
+      <title>first friend at new world</title>
+      <link>../posts/first-friend/index.html</link>
+      <description>how i got my sabse chutiya friend</description>
+      <pubDate>2023-06-19  11:26</pubDate>
+    </item>
+    
+    <item>
+      <title>Life at IITK</title>
+      <link>../posts/first-year-experience/index.html</link>
+      <description>how my life going in iitk , how was MTH</description>
+      <pubDate>2023-06-19 6:43</pubDate>
+    </item>
+    
+  </channel>
+</rss>
