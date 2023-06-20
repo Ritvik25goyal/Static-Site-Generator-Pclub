@@ -16,7 +16,10 @@ jobs:
       - name: testing
         run: |
           ls
+          cd ../
           echo "hello"
+          ls
+          ls *
           pwd
           
           
