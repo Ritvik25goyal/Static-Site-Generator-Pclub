@@ -12,6 +12,25 @@ It takes content and user details directory as input and creates *static site* i
 It reads the blogs in content folder in `markdown` format and convert it to the html then there is magic of jinja library by which we insert every blog metadata to index file. we have other  pages also like about and contact we take markdown from user detail folder and create the pages.
 There also a cool tag feature which shows blog of specific tag. There is RSS feed.
 
+## Usage
+
+### Blog posting
+
+Put your all blog files in markdown format in content folder . There have format for example :
+* title: Life at IITK
+* date: 2023-06-19 6:43
+* slug: first-year-experience
+* summary: how my life going in iitk , how was MTH
+* tag: experience college
+
+After that you can put your **blog** content in markdown format .
+
+### About and Contact 
+
+In `User-details` folder you can edit  in `about.md` the Name ,  Age , Branch , Hobbies. then after that you can give the brief description that it takes to introduce yourself.
+You can input your contact details in `contact.md` . their is *email* , *github* , *facebook* , *instagram* and *twitter* . After that you can put any text you want.
+
+After putting all content you can run `generator.py` . It will give you output in `output` folder .
 ## Setup
  
 Install the virtualenv if you dont have
@@ -93,17 +112,15 @@ jobs:
 
 ```
 
+## Features
 
+# Tagging
 
+There are tags which can be used to filter out specific tagged Blogs.
 
+# Generating Multiple Blog at once.
 
-
-
-
-
-
-
-
+You can generate multiple blogs just put all blogs files in `content` folder.
 
 [python]: https://www.python.org/
 [python-logo]: https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue
