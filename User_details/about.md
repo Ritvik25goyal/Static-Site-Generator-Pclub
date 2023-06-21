@@ -4,6 +4,7 @@ Branch: MTH
 Hobbies: love to explore computers
 
 hello my name is ritvik goyal , bruhh my UI/UX skills are very bad i have to work on them seriously .
+
 testing:-
 time than I am comfortable admitting watching HAIs excellent videos. This post, however, is not about HAI. It should be obvious that I have overcome my writer's block. After two avant garde pieces during the winter break my creative faculties just gave up. I want to blame this on people I hung out with in the fourth semester, but we know it is just a cope. I did not write because I was too busy having fun and talking to them specimens of the female species ensuring I do not fail Abstract Algebra. I was also too busy begging universities for work during the summer, but my OTP-esque rank (I once logged into Swiggy using my AIR as OTP) all but ensured a lot of "thanks but fuck off"s. Now that I have been snubbed by no less than two females and three research programmes, my creativity has - in bits and pieces- returned. This post, however is not a rant about the arduous application process and/or the many statements of purpose I had to write. It is difficult to write an SOP when your purpose in life is sleeping.
 

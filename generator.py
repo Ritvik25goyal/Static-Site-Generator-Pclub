@@ -41,6 +41,7 @@ post_template = env.get_template('post-detail.html')
 tag_template = env.get_template('tag.html')
 rss_template = env.get_template('rssfeed.xml')
 
+# Storing metadata for rendering
 index_posts_metadata = [POSTS[post].metadata for post in POSTS]
 rss_feed_metadata = index_posts_metadata
 about_content = user_details['About']
@@ -50,8 +51,8 @@ contact_metadata = user_details['Contact'].metadata
 
 # rendered data
 index_html_content = index_template.render(posts=index_posts_metadata)
-about_html_content = about_template.render(context=about_content, metadata=about_metadata)
-contact_html_content = contact_template.render(context=contact_content, metadata=about_metadata)
+about_html_content = about_template.render(desc=about_content, metadata=about_metadata)
+contact_html_content = contact_template.render(desc=contact_content, metadata=contact_metadata)
 rss_feed_content = rss_template.render(posts= rss_feed_metadata)
 
 with open('output/index.html', 'w') as file:  #index file copy
@@ -85,13 +86,13 @@ for post in POSTS:
         'title': post_metadata['title'],
         'date': post_metadata['date'],
     }
-    # Post index file creation
     post_html_content = post_template.render(post=post_data)
     post_file_path = 'output/posts/{slug}/index.html'.format(slug=post_metadata['slug'])
     os.makedirs(os.path.dirname(post_file_path), exist_ok=True)
     with open(post_file_path, 'w') as file:
         file.write(post_html_content)
 
+# Tag files creation
 for tag in tags:
     tags_post_metadata = []
     for post in POSTS:

@@ -27,6 +27,23 @@ body{
 .about-panel code{
   font-size: 20px;
 }
+.social a{
+	text-decoration: none;
+}
+.facebook i,.facebook b{
+	color :#3b5998;
+}
+.instagram i,.instagram b{
+	background: linear-gradient(210deg,#405DE6,#5B51D8,#833AB4,#C13584,#E1306C,#FD1D1D,#F56040,#F77737,#FCAF45,#FFDC80);
+  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.github i,.github b{
+	color: Black;
+}
+.twitter i,.twitter b{
+	color: #1DA1F2;
+}
 
 
 

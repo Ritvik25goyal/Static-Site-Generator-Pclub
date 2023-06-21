@@ -1,5 +1,5 @@
 title: Terrific Theorems, and other weird shit.
-date: 2023-06-21 3:26
+date: 2023-06-21 15:26
 slug: terrific-theorems
 summary: Sorry rahul , i am copying your blog
 tag: math rant
@@ -32,5 +32,5 @@ I am open to suggestions, but I will probably not change anything. Like I said, 
 ## **A Cute Problem**
 After 10th grade, I attended the invitational round of the Panini Linguistics Olympiad - the linguistics equivalent of IMOTC. Not a lot of people know this (well, basically everybody knows because that is my only flex). I did not make it to team India because, well, I sucked at number systems and a myriad of other things. And I did not study :(. For the un-initiated, linguistics olympiad problems consist of sentences in an unknown language and one is supposed to figure out that language's grammar and syntax. Sample Problem. Anyway, I was reminded of the olympiad because of another friend objecting to my use of the best sequence of emojis in existence. The string of emojis (UTF-8 my bois) has 5 emojis, so does my name. So let, 😼🗿😏🐦👀 = Rahul. This gives rise to a supremely cute problem. Replacing every alphabet with an emoticon, we end up with a script, call it emoscript. This file contains a message in emoscript. It may or may not be embarrasing. Decipher it, maybe. The hint is using frequency tables.
 
-## **Epilogue**
+## **Epilogue** 
 I hate ESC201. And biotech. Also, crushes per capita in MTH is not a reasonable metric, considering the low batch size.
