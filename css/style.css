@@ -27,6 +27,14 @@ body{
 .about-panel code{
   font-size: 20px;
 }
+.social{
+	height: 74vh;
+  text-align: center;
+	color: black;
+	font-size: 40px;
+	
+	
+}
 .social a{
 	text-decoration: none;
 }
